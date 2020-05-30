@@ -1,5 +1,9 @@
 {
   "name": "portfolio",
+  "engines": {
+    "npm": "6.12.0",
+    "node": "12.13.0"
+  }
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +18,7 @@
     "semantic-ui-react": "^0.88.2"
   },
   "scripts": {
-    "start": "node server/server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
