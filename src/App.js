@@ -11,7 +11,7 @@ function App() {
      <Grid columns={1} centered>
        <Grid.Row>
          <Grid.Column>
-         <Image src="ScoRpioAvatar.png" centered size='small' circular  bordered />
+         <Image src="myAvatar.png" centered size='small' circular  bordered />
          </Grid.Column>
        </Grid.Row>
 
@@ -53,10 +53,10 @@ function App() {
       
       I Am A Passionate Graduate in The Field Of Computer Science Informatics. 
       I Am A Huge loT Enthusiast And Hobbyist Driven By The Unshakable Urge To Design And Build Quality Software For Clients, 
-      While Satisfying And Completely Meeting Business Requirements. I Am A Full Stack Developer.
-      I Touch On Everything From Architecnural Design,Database Design API Implementation And UI Design.
-
-      In A Nutshell I'm A Full Stack Developer, Who's Also Availabele For Freelancing.
+      While Satisfying And Completely Meeting Business Requirements. 
+      
+      I Base All My Designs And Projects From A Minimalistic, Smooth And Enjoyable User Experience.
+      
       </p>
     </Container>
 
@@ -78,71 +78,71 @@ function App() {
     <Grid columns={2} >
       <Grid.Row>
         <Grid.Column>
-        <Progress percent={95} size='small' label='Java'  />
+        <Progress percent={95} size='small' color='black' label='Java'  />
         </Grid.Column>
 
         <Grid.Column>
-        <Progress percent={85} size='small' label='Python'  />
-        </Grid.Column>
-      </Grid.Row>
-
-      <Grid.Row>
-        <Grid.Column>
-        <Progress percent={85} size='small' label='C++'  />
-        </Grid.Column>
-
-        <Grid.Column>
-        <Progress percent={90} size='small' label='C#'  />
+        <Progress percent={85} size='small' color='black' label='Python'  />
         </Grid.Column>
       </Grid.Row>
 
       <Grid.Row>
         <Grid.Column>
-        <Progress percent={74} size='small' label='React Native'  />
+        <Progress percent={85} size='small'  color='black'label='C++'  />
         </Grid.Column>
 
         <Grid.Column>
-        <Progress percent={55} size='small' label='React'  />
-        </Grid.Column>
-      </Grid.Row>
-
-      <Grid.Row>
-        <Grid.Column>
-        <Progress percent={80} size='small' label='ASP.NET MVC'  />
-        </Grid.Column>
-
-        <Grid.Column>
-        <Progress percent={85} size='small' label='Xamarin.Android'  />
+        <Progress percent={90} size='small' color='black' label='C#'  />
         </Grid.Column>
       </Grid.Row>
 
       <Grid.Row>
         <Grid.Column>
-        <Progress percent={80} size='small' label='SQL Database'  />
+        <Progress percent={74} size='small' color='black' label='React Native'  />
         </Grid.Column>
 
         <Grid.Column>
-        <Progress percent={45} size='small' label='IoT'  />
-        </Grid.Column>
-      </Grid.Row>
-
-      <Grid.Row>
-        <Grid.Column>
-        <Progress percent={68} size='small' label='Electronics'  />
-        </Grid.Column>
-
-        <Grid.Column>
-        <Progress percent={55} size='small' label='Microsoft Azure'  />
+        <Progress percent={55} size='small' color='black' label='React'  />
         </Grid.Column>
       </Grid.Row>
 
       <Grid.Row>
         <Grid.Column>
-        <Progress percent={40} size='small'  label='Unity Game Development'  />
+        <Progress percent={80} size='small' color='black' label='ASP.NET MVC'  />
         </Grid.Column>
 
         <Grid.Column>
-        <Progress percent={60} size='small' color='grey' label='Basic Penetration Testing'  />
+        <Progress percent={85} size='small' color='black' label='Xamarin.Android'  />
+        </Grid.Column>
+      </Grid.Row>
+
+      <Grid.Row>
+        <Grid.Column>
+        <Progress percent={80} size='small' color='black' label='SQL Database'  />
+        </Grid.Column>
+
+        <Grid.Column>
+        <Progress percent={45} size='small' color='black' label='IoT'  />
+        </Grid.Column>
+      </Grid.Row>
+
+      <Grid.Row>
+        <Grid.Column>
+        <Progress percent={68} size='small' color='black' label='Electronics'  />
+        </Grid.Column>
+
+        <Grid.Column>
+        <Progress percent={55} size='small' color='black' label='Microsoft Azure'  />
+        </Grid.Column>
+      </Grid.Row>
+
+      <Grid.Row>
+        <Grid.Column>
+        <Progress percent={40} size='small' color='black'  label='Unity Game Development'  />
+        </Grid.Column>
+
+        <Grid.Column>
+        <Progress percent={60} size='small' color='black' label='Basic Penetration Testing'  />
         </Grid.Column>
       </Grid.Row>
     </Grid>
@@ -153,7 +153,8 @@ function App() {
 
     <Container textAlign='left' >
       <Header size='large'>Hobbies</Header>
-      <p>Drawing, Disassebly Of Old Electronics For Spare Parts In My Projects :), I Flash And Test Custom Roms, Gaming,COD Player, PUBG Player :)</p>
+      <p>Drawing, Disassembly Of Old Electronics For Spare Parts In My Projects :), I Flash And Test Custom Roms, Gaming,COD Player, PUBG Player :)</p>
+      <p>Away From My Screen Im An Actual Human Being With Family And Friends :) </p>
     </Container>
 
     <Divider hidden />
@@ -163,11 +164,11 @@ function App() {
     <Grid columns={2} >
       <Grid.Row>
         <Grid.Column>
-        <Progress percent={98} size='small' label='English'  />
+        <Progress percent={98} size='small' color='black' label='English'  />
         </Grid.Column>
 
-        <Grid.Column>
-        <Progress percent={99} size='small' label='IsiZulu'  />
+        <Grid.Column> 
+        <Progress percent={99} size='small'  color='black'label='IsiZulu'  />
         </Grid.Column>
       </Grid.Row>
       </Grid>
